@@ -1,0 +1,147 @@
+*{
+    
+    box-sizing: border-box;
+}
+
+body{
+    width: 70%;    
+    font-family: Verdana, Tahoma, sans-serif, Arial;
+    margin: auto;
+    background-color: #808080e5;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 10px;
+}
+
+li{
+    display: flex;
+    margin-right: 10px;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    flex-direction: column;
+}
+
+.title-rede-social{
+    width: 40%;
+    display: flex;
+    margin: auto;
+}
+.title-rede-social ul{
+   flex-direction: column;
+}
+
+.title-rede-social li{
+    padding: 10px;
+ }
+ 
+
+.side{
+    display: flex; 
+    align-items: center;
+}
+
+.rede-social a{
+    display: flex;
+}
+
+.rede-social a:hover{
+    color: #ffffff;
+}
+
+.rede-social span{
+    justify-content: center;
+    margin-left: 3px;
+}
+
+
+.rede-social img{
+   width: 25px;
+   border-radius: 25px;
+  
+}
+
+.foto{
+    border-radius: 80px 300px  ;
+    width: 120px;
+}
+
+#title, .subtitle, .post_title{
+    color: #505050;
+}
+
+#title h1{
+    font-style: normal;
+    font-size: 40px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-left: 20px; 
+    color: #ffffff; 
+}
+#title h3{
+    margin-top: -30px;
+    text-align: center;
+    font-weight: normal;
+    color: #000;
+}
+
+
+.subtitle{
+    font-style: italic;
+    font-weight: bold;
+    text-transform: lowercase;
+    color: #000;
+}
+
+.post_title{
+    font-size: 18px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    
+}
+
+.post{
+    background: white;
+    padding: 15px;
+    border: 3px solid #5050505b;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.post_content{
+    margin: 0;
+    margin-bottom: 15px;
+    text-align: justify;
+    
+}
+
+article a{
+    color: blue;
+}
+
+article a:hover{
+    background-color: blue;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 4px;
+}
+
+
+.post_img{
+    margin-bottom: 15px;
+    border-radius: 200px 30px;
+    width: 90%;
+}
